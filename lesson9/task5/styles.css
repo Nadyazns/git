@@ -1,6 +1,7 @@
 header,
 ul,
 nav {
+    display: absolut;
     background-color: darkturquoise;
     height: 40px;
     margin: 0;
