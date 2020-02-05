@@ -3,15 +3,12 @@ ul,
 nav {
     display: absolut;
     background-color: darkturquoise;
-    height: 40px;
+    line-height: 40px;
     margin: 0;
     z-index: 99;
 }
 
 li.nav-item {
-    margin: 0;
-    line-height: 40px;
-    list-style-type: none;
     display: inline;
     color: white;
     margin-left: 16px;
