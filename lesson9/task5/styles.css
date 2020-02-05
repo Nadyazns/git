@@ -1,7 +1,7 @@
 header,
 ul,
 nav {
-    display: absolut;
+    display: absolute;
     background-color: darkturquoise;
     line-height: 40px;
     margin: 0;
@@ -10,7 +10,7 @@ nav {
 
 li.nav-item {
     line-height: 40px;
-    display: inline;
+    display: inline-block;
     color: white;
     margin-left: 16px;
 }
