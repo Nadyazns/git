@@ -9,6 +9,7 @@ nav {
 }
 
 li.nav-item {
+    line-height: 40px;
     display: inline;
     color: white;
     margin-left: 16px;
