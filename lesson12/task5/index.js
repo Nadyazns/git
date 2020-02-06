@@ -28,8 +28,5 @@ if (age < 16) {
 
 
 // Тернаный оператор ? : ( const result = условие ? значение1 : значение2; )
-
-const result = amount > 17 ? 'full' : 'empty';
-
-
 let amount = 5;
+const result = amount > 17 ? 'full' : 'empty';
