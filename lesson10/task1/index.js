@@ -1,2 +1,1 @@
-let c = 'Hello, World!'
-console.log(c)
+console.log('Hello, World!')
