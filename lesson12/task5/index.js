@@ -13,7 +13,7 @@ if (null) {
 } else {
     console.log('Else');
 }
-
+let age = 18;
 
 if (age < 16) {
     console.log('Too young');
@@ -24,7 +24,7 @@ if (age < 16) {
 } else {
     console.log('Else');
 }
-let age = 18;
+
 
 
 // Тернаный оператор ? : ( const result = условие ? значение1 : значение2; )
