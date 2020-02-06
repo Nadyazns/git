@@ -24,10 +24,12 @@ if (age < 16) {
 } else {
     console.log('Else');
 }
+let age = 18;
+
 
 // Тернаный оператор ? : ( const result = условие ? значение1 : значение2; )
 
 const result = amount > 17 ? 'full' : 'empty';
 
-let age = 18;
+
 let amount = 5;
