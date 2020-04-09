@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI=" crossorigin="anonymous" />
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        .image-container>img {
+            display: block;
+            margin: auto;
+            margin-top: 50px;
+            max-width: 100%;
+            border-radius: 20px;
+        }
+        
+        .card {
+            margin: 16px;
+            box-shadow: 0px 7px 18px -8px rgba(0, 0, 0, 0.75);
+        }
+        
+        .gallery {
+            display: flex;
+            margin-top: 50px;
+        }
+        
+        figcaption {
+            line-height: 30px;
+            text-align: center;
+            text-transform: lowercase;
+        }
+        
+        .opacity_filter {
+            filter: opacity(50%);
+        }
+        
+        .blur_filter {
+            filter: blur(4px);
+        }
+        
+        .invert_filter {
+            filter: invert(100%);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="image-container">
+        <img src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/big.jpeg" alt="Land with tree">
+    </div>
+    <div class="gallery">
+        <figure class="card">
+            <img class="opacity_filter" src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg" alt="Opacity">
+            <figcaption>
+                Opacity
+            </figcaption>
+        </figure>
+        <figure class="card">
+            <img class="blur_filter" src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg" alt="Blur">
+            <figcaption>
+                Blur
+            </figcaption>
+        </figure>
+        <figure class="card">
+            <img class="invert_filter" src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg" alt="Invert">
+            <figcaption>
+                Invert
+            </figcaption>
+        </figure>
+    </div>
+</body>
+
+
+</html>
