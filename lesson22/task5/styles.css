@@ -1,0 +1,96 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: #555;
+}
+
+body {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    flex: 1;
+}
+
+.header {
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(60deg, red, orange);
+}
+
+.navigation,
+.section,
+.news {
+    box-sizing: border-box;
+    padding: 0.5em;
+}
+
+.navigation {
+    width: 20%;
+}
+
+.picture {
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.section {
+    width: 60%;
+    font-size: 1.25em;
+}
+
+.section__header {
+    font-size: 5vw;
+    text-align: center;
+}
+
+.units-list {
+    line-height: 1.75em;
+}
+
+.css-units {
+    color: #8b0000;
+    background-color: #e5e5e5;
+    font-weight: 700;
+    font-size: 1.125em;
+}
+
+.nav-list {
+    padding: 0;
+    list-style-type: none;
+}
+
+.nav-list-item {
+    background-color: #808080;
+    height: 2em;
+    margin-bottom: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.nav-list-link {
+    text-decoration: none;
+    color: white;
+    line-height: 2em;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.news {
+    width: 20%;
+}
+
+.footer {
+    background-color: #e5e5e5;
+    padding: 0.5em;
+    text-align: center;
+}
