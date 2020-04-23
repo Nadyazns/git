@@ -3,6 +3,7 @@
     min-height: 200px;
     display: flex;
     flex-grow: 1;
+    box-sizing: border-box;
 }
 
 .products-list {
@@ -30,14 +31,13 @@ span {
 
 @media screen and (min-width: 600px) {
     .products {
-        display: flex;
         flex-direction: row;
-        flex-grow: 2;
+        flex: 2;
     }
 }
 
 @media screen and (min-width: 900px) {
     .content {
-        display: flex;
+        flex-direction: row;
     }
 }
