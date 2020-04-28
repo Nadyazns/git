@@ -12,12 +12,11 @@ body {
     height: 100vh;
 }
 
-
-/* main {
+main {
     display: flex;
     flex-direction: column;
     flex: 1;
-} */
+}
 
 .header {
     text-align: center;
