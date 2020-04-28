@@ -101,6 +101,10 @@ img {
     text-align: center;
 }
 
+.notnews {
+    display: flex;
+}
+
 @media screen and (max-width: 600px) {
     main {
         display: block;
@@ -117,10 +121,14 @@ img {
 }
 
 @media screen and (max-width: 900px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+    }
     .section {
         width: 80%;
     }
     .news {
-        display: block;
+        width: auto;
     }
 }
