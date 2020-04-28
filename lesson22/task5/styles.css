@@ -12,11 +12,12 @@ body {
     height: 100vh;
 }
 
-main {
+
+/* main {
     display: flex;
-    /* flex-direction: column; */
+    flex-direction: column;
     flex: 1;
-}
+} */
 
 .header {
     text-align: center;
@@ -35,12 +36,13 @@ img {
 .news {
     box-sizing: border-box;
     padding: 0.5em;
-    /* width: 100vw; */
+    width: 100vw;
 }
 
-.navigation {
+
+/* .navigation {
     width: 20%;
-}
+} */
 
 .picture {
     max-width: 100%;
@@ -48,7 +50,7 @@ img {
 }
 
 .section {
-    width: 60%;
+    /* width: 60%; */
     font-size: 1.25em;
 }
 
@@ -94,7 +96,7 @@ img {
 }
 
 .news {
-    width: 20%;
+    /* width: 20%; */
 }
 
 .footer {
