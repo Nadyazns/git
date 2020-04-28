@@ -94,10 +94,6 @@ img {
     text-overflow: ellipsis;
 }
 
-.news {
-    /* width: 20%; */
-}
-
 .footer {
     background-color: #e5e5e5;
     padding: 0.5em;
@@ -116,12 +112,17 @@ img {
     }
 }
 
-
-/* @media screen and (min-width: 900px) {
+@media screen and (min-width: 900px) {
+    .main {
+        flex-direction: row;
+    }
+    .navigation {
+        width: 20vw;
+    }
     .section {
-        width: 80%;
+        width: 60vw;
     }
     .news {
-        display: block;
+        width: 20vw;
     }
-} */
+}
