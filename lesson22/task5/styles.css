@@ -115,3 +115,12 @@ img {
         width: 100%;
     }
 }
+
+@media screen and (max-width: 900px) {
+    .section {
+        width: 80%;
+    }
+    .news {
+        display: block;
+    }
+}
