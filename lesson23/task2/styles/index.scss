@@ -3,17 +3,20 @@
     box-sizing: border-box;
 }
 
-.container {
+body {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
-    flex-direction: column;
-    @include for-land {
-        flex-direction: row;
-    }
 }
 
+// .container {
+//     display: flex;
+//     flex-direction: column;
+//     @include for-land {
+//         flex-direction: row;
+//     }
+// }
 .square {
     width: 100px;
     height: 100px;
