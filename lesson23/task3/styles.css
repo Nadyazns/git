@@ -14,6 +14,8 @@
   line-height: 3em;
 }
 .menu__item {
+  display: flex;
+  flex-direction: column;
   padding-left: 8px;
   padding-right: 8px;
   line-height: 3em;
