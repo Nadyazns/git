@@ -2,11 +2,17 @@
   box-sizing: border-box;
 }
 
-body {
+.container {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100vh;
+  flex-direction: column;
+}
+@media screen and (orientation: landscape) {
+  .container {
+    flex-direction: row;
+  }
 }
 
 .square {
