@@ -21,9 +21,11 @@
   line-height: 3em;
   text-transform: uppercase;
 }
+.menu__item-text {
+  width: fit-content;
+}
 .menu__item_active {
   color: yellow;
-  text-align: center;
 }
 .menu__item_active:hover .submenu {
   visibility: visible;
@@ -38,13 +40,13 @@
 }
 .submenu__item {
   color: #fff;
-  min-width: 120px;
   z-index: 1;
   padding-left: 8px;
   padding-right: 8px;
 }
 .submenu__item:hover {
   color: black;
+  min-width: 120px;
 }
 
 * {
