@@ -23,6 +23,7 @@
 }
 .menu__item_active {
   color: yellow;
+  text-align: center;
 }
 .menu__item_active:hover .submenu {
   visibility: visible;

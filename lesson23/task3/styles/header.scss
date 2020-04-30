@@ -21,6 +21,7 @@
         text-transform: uppercase;
         &_active {
             color: yellow;
+            text-align: center;
             &:hover {
                 .submenu {
                     visibility: visible;
