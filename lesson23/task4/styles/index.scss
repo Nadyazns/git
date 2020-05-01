@@ -2,3 +2,21 @@
 * {
     box-sizing: border-box;
 }
+
+.products {
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    @include for-small-up {
+        flex-direction: row;
+        flex: 2;
+    }
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    @include for-big-up {
+        flex-direction: row;
+    }
+}

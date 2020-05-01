@@ -1,11 +1,7 @@
-.content {
+$sm: 600px;
+$md: 900px;
+body {
     display: flex;
-    flex-direction: column;
-}
-
-.products {
-    display: flex;
-    flex: 2;
     flex-direction: column;
 }
 
@@ -39,7 +35,14 @@ div {
     flex: 1;
 }
 
-body {
-    display: flex;
-    flex-direction: column;
+@mixin for-small-up {
+    @media screen and (min-width: $sm) {
+        @content;
+    }
+}
+
+@mixin for-big-up {
+    @media screen and (min-width: $md) {
+        @content;
+    }
 }
